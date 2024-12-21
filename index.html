@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project 2</title>
+    <style>
+        /* Write your CSS here 
+            Line Colour: #000
+            White: #F0F1EC 
+            Red: #E72F24 
+            Black: #232629 
+            Blue: #004592 
+            Yellow: #F9D01E */
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #000;
+            height: 700px;
+            width: 700px;
+            display: grid;
+            gap: 10px;
+            grid-template: 100px 150px 150px 80px 80px 90px / 100px 150px 150px 100px 100px 50px;
+        }
+
+        /*COLOR SCHEME*/
+        .white {
+            background-color: #F0F1EC;
+        }
+
+        .yellow {
+            background-color: #F9D01E;
+        }
+
+        .red {
+            background-color: #E72F24;
+        }
+
+        .blue {
+            background-color: #004592;
+        }
+
+        .black {
+            background-color: #232629;
+        }
+
+        /*1ST ROW*/
+        .w1 {
+            grid-column: span 2;
+        }
+
+        .w2 {
+            grid-column: span 1;
+        }
+
+        .y1 {
+            grid-column: span 2;
+        }
+
+        .w3 {
+            grid-column: span 1;
+        }
+
+        /*2ND ROW*/
+
+        .w4 {
+            grid-column: span 1;
+        }
+
+        .r1 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .y2 {
+            grid-column: span 2;
+        }
+
+        .w5 {
+            grid-row: span 3;
+        }
+
+        /*3RD ROW*/
+
+        .w6 {
+            grid-row: span 2;
+        }
+
+        .w7 {
+            grid-column: span 1;
+        }
+
+        .w8 {
+            grid-column: span 1;
+        }
+
+        /*4TH ROW*/
+
+        .k1 {
+            grid-column: span 1;
+        }
+
+        .w9 {
+            grid-column: span 1;
+        }
+
+        .w8 {
+            grid-column: span 1;
+        }
+
+        .w10 {
+            grid-column: span 2;
+        }
+
+        /*5TH ROW*/
+
+        .y3 {
+            grid-row: span 2;
+        }
+
+        .k2 {
+            grid-column: span 1;
+        }
+
+        .w11 {
+            grid-column: span 1;
+
+        }
+
+        .bl1 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .r2 {
+            grid-row: span 2;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="white w1"></div>
+        <div class="white w2"></div>
+        <div class="yellow y1"></div>
+        <div class="white w3"></div>
+
+        <div class="white w4"></div>
+        <div class="red r1"></div>
+        <div class="yellow y2"></div>
+        <div class="white w5"></div>
+
+        <div class="white w6"></div>
+        <div class="white w7"></div>
+        <div class="white w8"></div>
+
+        <div class="black k1"></div>
+        <div class="white w9"></div>
+        <div class="white w10"></div>
+
+        <div class="yellow y3"></div>
+        <div class="black k2"></div>
+        <div class="white w11"></div>
+        <div class="blue bl1"></div>
+        <div class="red r2"></div>
+
+        <div class="white w12"></div>
+        <div class="black k3"></div>
+ 
+    </div>
+
+    
+</body>
+
+</html>
